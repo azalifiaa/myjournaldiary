@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jurnal Harianku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📓 Jurnal Harianku</h1>
+        <textarea id="noteInput" placeholder="Apa yang kamu pikirkan hari ini?"></textarea>
+        <button onclick="saveNote()">Simpan ke Jurnal</button>
+        <div id="notesList"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
